@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VeriparkIMKB</string>
+
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="nav_app_bar_close_drawer_description">Close navigation drawer</string>
+    <string name="handshake_button">IMKB Hisse Senetleri/Endeksler</string>
+    <string name="nav_all">Hisse ve Endeksler</string>
+    <string name="nav_rising">Yükselenler</string>
+    <string name="nav_falling">Düşenler</string>
+    <string name="nav_30">Hacme göre - 30</string>
+    <string name="nav_50">Hacme göre - 50</string>
+    <string name="nav_100">Hacme göre - 100</string>
+</resources>

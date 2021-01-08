@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allstocks"
+            android:title="@string/nav_all" />
+
+        <item
+            android:id="@+id/nav_rising"
+            android:title="@string/nav_rising" />
+
+        <item
+            android:id="@+id/nav_falling"
+            android:title="@string/nav_falling" />
+
+        <item
+            android:id="@+id/nav_30"
+            android:title="@string/nav_30" />
+
+        <item
+            android:id="@+id/nav_50"
+            android:title="@string/nav_50" />
+
+        <item
+            android:id="@+id/nav_100"
+            android:title="@string/nav_100" />
+    </group>
+
+</menu>
