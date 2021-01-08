@@ -97,9 +97,10 @@ class ImkbListFragment : Fragment(), ListAdapter.OnItemListener {
 
         handshakeViewModel.getHandshake().observe(this, {
             CoroutineScope(Dispatchers.Main).launch {
+
                 val bundle = bundleOf("detailID" to adapter.stockList[position].id.toString())
                 requireView().findNavController()
-                    .navigate(R.id.action_imkbListFragment_to_imkbDetailFragment, bundle)
+                        .navigate(R.id.action_imkbListFragment_to_imkbDetailFragment, bundle)
             }
         })
     }

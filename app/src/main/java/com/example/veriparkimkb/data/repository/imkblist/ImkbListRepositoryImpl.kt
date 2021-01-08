@@ -21,7 +21,8 @@ class ImkbListRepositoryImpl(private val imkbListRemoteDataSource: ImkbListRemot
             val body = imkbListRemoteDataSource.getImkbList().body()
             if (body != null) response = body
         } catch (exception: Exception) {
-            Log.e("AppError", exception.message.toString())
+            Log.e("Error", exception.message.toString())
+            //exception.printStackTrace()
         }
         return response
     }
